@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: 92px 24px 96px;
 }
@@ -231,8 +231,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 24px;
+  letter-spacing: 0.04em;
 }
 
 .about__paragraph {
@@ -242,7 +243,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin: 180px 50px 88px;
   width: 1000px;
 }
@@ -260,6 +261,11 @@
 .footer__social-list {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  gap: 48px;
   width: 240px;
+}
+
+.footer__social-icon {
+  width: 48px;
+  height: 48px;
 }
