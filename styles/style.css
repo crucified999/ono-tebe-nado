@@ -1,9 +1,8 @@
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 92px 24px;
-  /* padding: 26px; */
 }
 
 .header__links-list {
@@ -11,11 +10,11 @@
   list-style: circle;
   gap: 35px;
   font-size: 18px;
-  margin: 44px 0 39px 26px;
+  margin: 44px 36px 39px 26px;
 }
 
 .header__logo {
-  margin: 0 184px 0 36px;
+  margin: 0 184px 0 0;
   width: 148px;
   height: 105px;
 }
@@ -37,6 +36,7 @@
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.01em;
+  margin-right: 25px;
 }
 
 .cover {
@@ -139,6 +139,7 @@
 
 .lots__card-list-item {
   position: relative;
+  height: 100%;
 }
 
 .card {
@@ -147,6 +148,7 @@
   justify-content: space-between;
   padding: 40px;
   height: 100%;
+  width: 100%;
   color: white;
   background-size: cover;
   background-position: center;
