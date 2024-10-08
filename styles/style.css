@@ -7,8 +7,7 @@
 .header__links-list {
   display: flex;
   list-style: circle;
-  gap: 35px;
-  font-size: 18px;
+  column-gap: 30px;
   margin: 44px 36px 39px 26px;
 }
 
@@ -21,6 +20,11 @@
 .header__logo-image {
   width: 100%;
   height: 100%;
+}
+
+.header__link {
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .header__main-links-item {
