@@ -1,4 +1,5 @@
 .header {
+  background-image: url(/images/card-lot-01.jpg);
   display: grid;
   grid-template-columns: repeat(3, auto);
   margin: 92px 24px 96px;
@@ -259,7 +260,7 @@
   grid-template-columns: repeat(3, auto);
   /* justify-content: space-between;
   align-items: flex-start; */
-  margin: 180px 50px 88px;
+  margin: 180px 50px 70px;
   column-gap: 185px;
   width: 1000px;
 }
