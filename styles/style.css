@@ -1,7 +1,6 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
   margin: 92px 24px;
 }
 
@@ -42,6 +41,7 @@
 .cover {
   background-image: url(/images/cover.jpg);
   height: 760px;
+  /* width: 100%; */
   position: relative;
   background-size: cover;
   color: white;
