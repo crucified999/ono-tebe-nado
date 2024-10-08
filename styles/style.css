@@ -1,5 +1,4 @@
 .header {
-  background-image: url(/images/card-lot-01.jpg);
   display: grid;
   grid-template-columns: repeat(3, auto);
   margin: 92px 24px 96px;
