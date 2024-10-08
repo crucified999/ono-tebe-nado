@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: 92px 24px;
   padding: 26px;
@@ -244,16 +244,16 @@
 
 .footer {
   display: flex;
+  justify-content: space-between;
   align-items: flex-start;
   margin: 180px 50px 88px;
-  gap: 185px;
+  column-gap: 185px;
   width: 1000px;
 }
 
 .footer__menu-list {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   list-style: none;
   font-size: 18px;
@@ -264,7 +264,7 @@
   list-style: none;
   display: flex;
   gap: 48px;
-  width: 240px;
+  height: 48px;
 }
 
 .footer__social-icon {
