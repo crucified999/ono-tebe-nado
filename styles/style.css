@@ -55,7 +55,7 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 147px;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   height: 757px;
   position: relative;
   background-size: cover;
@@ -74,7 +74,6 @@
 }
 
 .cover__title {
-  /* display: flex; */
   position: relative;
   letter-spacing: 0.6em;
   width: 1000px;
@@ -184,15 +183,15 @@
 }
 
 .card_type_film {
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .card-link {
@@ -259,7 +258,7 @@
   grid-template-columns: repeat(3, auto);
   /* justify-content: space-between;
   align-items: flex-start; */
-  margin: 180px 50px 68px;
+  margin: 180px 50px 66px;
   column-gap: 185px;
   width: 1000px;
 }
