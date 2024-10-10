@@ -61,15 +61,14 @@
 .cover {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 147px;
+  justify-content: flex-start;
+  /* row-gap: 147px; */
   background-image: url(../images/cover.jpg);
-  max-height: 757px;
   position: relative;
   background-size: cover;
   background-position: center;
   color: white;
-  padding: 165px 50px;
+  padding: 165px 50px 51px;
 }
 
 .overlay {
@@ -91,16 +90,18 @@
 
 .aligned-text {
   letter-spacing: 0.3em;
-  line-height: 110px;
+  line-height: 115px;
+  margin-bottom: 20px;
 }
 
 .aligned-text_center {
   text-align: center;
+  line-height: 100px;
 }
 
 .aligned-text_right {
-  margin: 10px 0 0 587px;
-  text-align: right;
+  margin-left: 587px;
+  line-height: 100px;
 }
 
 .letter-spacing-extended {
@@ -115,6 +116,7 @@
   position: relative;
   font-size: 22px;
   text-transform: uppercase;
+  margin-top: 115px;
 }
 
 .cover__description-text {
@@ -254,16 +256,14 @@
   justify-content: space-between;
   font-size: 20px;
   line-height: 24px;
-  word-spacing: 0.04em;
-  gap: 24px;
+  row-gap: 24px;
 }
 
 .footer {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  margin: 180px 50px 88px;
+  margin: 180px 50px 84px;
   column-gap: 185px;
-  width: 1000px;
 }
 
 .footer__menu-list {
@@ -282,7 +282,7 @@
 .footer__social-list {
   list-style: none;
   display: flex;
-  gap: 48px;
+  column-gap: 48px;
 }
 
 .footer__social-icon {
